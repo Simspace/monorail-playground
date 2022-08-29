@@ -11,8 +11,8 @@
   "dependencies": {
     "@emotion/react": "^11.10.0",
     "@emotion/styled": "^11.10.0",
-    "@monorail/components": "^0.0.5",
-    "@monorail/themes": "^0.0.5",
+    "@monorail/components": "^0.0.7",
+    "@monorail/themes": "^0.0.7",
     "@mui/styled-engine": "^5.10.2",
     "dayjs": "^1.11.5",
     "react": "^18.2.0",
