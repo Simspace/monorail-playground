@@ -1,9 +1,9 @@
 import {
   ThemeProvider,
   CssBaseline,
-  StyledEngineProvider,
   LocalizationProvider,
 } from "@monorail/components";
+import { StyledEngineProvider } from "@monorail/components/StyledEngineProviderEmotion";
 import { AdapterDayjs } from "@monorail/components/AdapterDayjs";
 import { classicLight } from "@monorail/themes";
 import React from "react";
