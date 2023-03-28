@@ -5,7 +5,7 @@ This is a minimal repo for users of Monorail to experiment with building user in
 ## Quick Start
 
 ```shell
-$ git clone git@gitlab.com:simspace/engineering/ux-engineering/monorail-playground.git
+$ git clone git@github.com:Simspace/monorail-playground.git
 $ cd monorail-playground
 $ yarn
 $ yarn dev
