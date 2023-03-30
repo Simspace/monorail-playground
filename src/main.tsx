@@ -6,14 +6,14 @@ import {
 } from "@monorail/components";
 import { StyledEngineProvider } from "@monorail/components/StyledEngineProviderEmotion";
 import { AdapterDayjs } from "@monorail/components/AdapterDayjs";
-import { halloweenLightTheme } from "@monorail/themes";
+import { meteorLightTheme } from "@monorail/themes";
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
-    <ThemeProvider theme={halloweenLightTheme}>
+    <ThemeProvider theme={meteorLightTheme}>
       <LocalizationProvider dateAdapter={AdapterDayjs}>
         <StyledEngineProvider injectFirst>
           <GlobalStyles
